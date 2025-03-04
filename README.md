@@ -75,8 +75,8 @@ langgraph-ai-chatbot-agent/
 - Type your messages in the input box and click "Send Query" to interact with the chatbot.
 
 ## Code Overview
-[app.py]([URL](https://github.com/CSzzs/LangGraph_AI_Chatbot_Agent/blob/main/app.py))
 
+[app.py](https://github.com/CSzzs/LangGraph_AI_Chatbot_Agent/blob/main/app.py)
 ### This file contains the FastAPI backend for handling chat requests.
 ```python
 """Import necessary libraries modlues and setup for FastAPI, LangGraph, and LangChain"""
