@@ -148,8 +148,8 @@ if __name__ == '__main__':
     import uvicorn                                                              #Import uvicorn for running the FastAPI app
     uvicorn.run(app, host='127.0.0.1', port=8000)                               #start the app on localhost with port 8000
 ```
-[ui.py]([URL](https://github.com/CSzzs/LangGraph_AI_Chatbot_Agent/blob/main/ui.py))
 
+[ui.py](https://github.com/CSzzs/LangGraph_AI_Chatbot_Agent/blob/main/ui.py)
 ### This file contains the Streamlit frontend for user interaction.
 ```python
 import streamlit as st
@@ -211,7 +211,8 @@ if st.button("Send Query"):
     else:
         st.warning("please enter a message before clicking  'send query' button.")
 ```
-[config.json]([URL](https://github.com/CSzzs/LangGraph_AI_Chatbot_Agent/blob/main/config.json))
+
+[config.json](https://github.com/CSzzs/LangGraph_AI_Chatbot_Agent/blob/main/config.json)
 ### This file contains the API keys required for the project.
 ```json
 {
@@ -219,7 +220,8 @@ if st.button("Send Query"):
     "TAVILY_API_KEY": "your_tavily_api_key_here"
 }
 ```
-[requiremnet.txt]([URL](https://github.com/CSzzs/LangGraph_AI_Chatbot_Agent/blob/main/requirements.txt))
+
+[requiremnet.txt](https://github.com/CSzzs/LangGraph_AI_Chatbot_Agent/blob/main/requirements.txt)
 ### This file lists all the required Python packages for the project.
 ```txt
 fastapi
