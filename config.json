@@ -1,4 +1,4 @@
 {
-    "GROQ_API_KEY": "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",
-    "TAVILY_API_KEY": "gtvly-dev-Lz06vtWrGAcBHvUWDR0XF3aMKr4GbNJ9"
+    "GROQ_API_KEY": "put_your_groq_api_key_here",
+    "TAVILY_API_KEY": "put_your_tavily_api_key_her"
 }
