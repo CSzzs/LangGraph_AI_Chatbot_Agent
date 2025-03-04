@@ -29,7 +29,7 @@ This project is a chatbot agent built using FastAPI, Streamlit, and LangGraph. I
 
 ```bash
 git clone https://github.com/CSzzs/langgraph_ai_chatbot_agent.git
-cd langgraph-ai-chatbot-agent
+cd langgraph_ai_chatbot_agent
 ```
 2. Install the required packages:
 pip install -r requirements.txt
