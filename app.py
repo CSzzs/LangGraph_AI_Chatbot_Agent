@@ -2,7 +2,7 @@
 from fastapi import FastAPI                                                     #framework to create web applications
 from pydantic import BaseModel                                                  #for structrured data data model
 from typing import List                                                         #type hint fore type annotations
-from langchain_community.tools.tavily_search import TavilySearchResults          #for searching the Tavily
+from langchain_community.tools.tavily_search import TavilySearchResults         #for searching the Tavily
 import os                                                                       #for enviornment varible handling
 import json                                                                     #for JSON data handling
 from langgraph.prebuilt import create_react_agent                               #for create a React Agent
@@ -12,8 +12,8 @@ from langchain_groq import ChatGroq                                             
 working_dir = os.path.dirname(os.path.abspath(__file__))                       #get the current working directory
 config_data = json.load(open(f"{working_dir}/config.json"))                    #load the config file
 
-os.environ["GROQ_API_KEY"] = config_data["GROQ_API_KEY"]                                     #get the GROQ API key
-os.environ["TAVILY_API_KEY"] = config_data["TAVILY_API_KEY"]                                 #get the Tavily API key
+os.environ["GROQ_API_KEY"] = config_data["GROQ_API_KEY"]                       #get the GROQ API key
+os.environ["TAVILY_API_KEY"] = config_data["TAVILY_API_KEY"]                   #get the Tavily API key
 
 """Predefined list of supported  models"""
 MODEL_NAMES =[
